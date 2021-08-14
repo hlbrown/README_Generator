@@ -1,0 +1,14 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "Generates a README file",
+  "main": "index.js",
+  "repository": "https://github.com/hlbrown/README_Generator.git",
+  "author": "Hannah Brown <nagle.hannah1@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.21.1",
+    "inquirer": "^8.1.2"
+  }
+}
