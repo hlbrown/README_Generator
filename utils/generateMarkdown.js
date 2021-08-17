@@ -23,7 +23,7 @@ function generateMarkdown(userResponses, userInfo) {
     };
   
     let draftMarkdown = `# ${userResponses.title}
-    ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor) 
+    ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) 
     [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
@@ -34,7 +34,7 @@ function generateMarkdown(userResponses, userInfo) {
     
     ## Description
     
-    *the what, why and how:*
+    *Projection Description Unloaded*
     ${userResponses.description}
   
     `
@@ -103,7 +103,7 @@ function generateMarkdown(userResponses, userInfo) {
     ![Developer Profile Pic](${userInfo.avatar_url})
     For any questions, please contact me with the information below:
 
-    GitHub: [@${userInfo.login}](${userInfo.url})
+    GitHub: [@${userInfo.login}](${userInfo.html_url})
     `;
 
     if (userInfo.email !== null){
