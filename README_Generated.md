@@ -1,5 +1,5 @@
 # Title Your Project
-    ![Badge for GitHub](https://img.shields.io/github/languages/top/Hlbrown/README_Generator?style=flat&logo=appveyor) 
+    ![Badge for GitHub](https://img.shields.io/github/languages/top/hlbrown/README_Generator?style=flat&logo=appveyor) 
     [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
@@ -11,24 +11,9 @@
     ## Description
     
     *Projection Description Unloaded*
-    project description 
+    Project Description
   
-    ## Table of Contents * [Installation](#installation) * [Usage](#usage) * [Contributing](#contributing) * [Tests](#tests)* [License](#license)
-      ##Installation
-  
-      *Steps required to install project and how to get the development environment running:*
-
-      list the steps that would be needed to install your project
-      ##Usage
-
-      *Instructions and examples for use:*
-      
-      instructions on how to use the project 
-      ## Tests
-      
-      *Tests for application and how to run them:*
-      
-      tests to descibe what each test is doing 
+    ## Table of Contents* [License](#license)
     ## License
 
     MIT License
